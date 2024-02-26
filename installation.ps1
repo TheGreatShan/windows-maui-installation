@@ -17,3 +17,5 @@ scoop install extras/rider
 dotnet workload install maui
 dotnet workload install wasm-tools
 dotnet workload install maui-tizen
+
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
