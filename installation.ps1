@@ -16,3 +16,4 @@ scoop install extras/rider
 
 dotnet workload install maui
 dotnet workload install wasm-tools
+dotnet workload install maui-tizen
